@@ -116,8 +116,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TEMPLATES_DIRS = (
-    'C:/Users/yogesh soni/Desktop/appink/templates',
-    'C:/Users/yogesh soni/Desktop/appink/templates/quiz',
+    #'C:/Users/yogesh soni/Desktop/appink/templates',
+    #'C:/Users/yogesh soni/Desktop/appink/templates/quiz',
     #'C:/Users/yogesh soni/Desktop/appink/templates/admin',
     #'C:/Users/yogesh soni/Desktop/appink/templates/quiz/quiz',
 )
@@ -127,7 +127,7 @@ STATICFILES_DIRS = (
     '/var/www/static/',
 )
 MEDIA_DIRS = (
-    os.path.join(BASE_DIR, "media"),
+     os.path.join(BASE_DIR, "media"),
     '/var/www/media/',
 )
 
