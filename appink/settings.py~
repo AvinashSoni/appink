@@ -126,7 +126,10 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     '/var/www/static/',
 )
-
+MEDIA_DIRS = (
+    os.path.join(BASE_DIR, "media"),
+    '/var/www/media/',
+)
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -139,5 +142,5 @@ TEMPLATE_LOADERS = (
 )
 
 STATIC_ROOT = "/var/www/example.com/static/"
-MEDIA_ROOT = "C:/Users/yogesh soni/Desktop/appink/media"
-MEDIA_URL = "/media/"
+MEDIA_ROOT = "/var/www/example.com/media/"
+MEDIA_URL =  '/media/'
