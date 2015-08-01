@@ -2,3 +2,4 @@ Django==1.8.3
 Pillow==2.3.0
 awsebcli==3.4.7
 django-model-utils==2.3.1
+MySQL-python==1.2.3
