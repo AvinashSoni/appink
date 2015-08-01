@@ -91,11 +91,11 @@ WSGI_APPLICATION = 'appink.wsgi.application'
 DATABASES = {
   'default': {
   'ENGINE': 'django.db.backends.mysql',
-  'NAME': os.environ['appink_app_db'],
-  'USER': os.environ['appink_avinash'],
-  'PASSWORD': os.environ['msmsgumsum8487'],
-  'HOST': os.environ['appink-app-db.cqgkyept18if.us-west-2.rds.amazonaws.com'],
-  'PORT': os.environ['3306'],
+  'NAME': 'appink_app_db',
+  'USER': 'appink_avinash',
+  'PASSWORD': 'msmsgumsum8487',
+  'HOST': 'appink-app-db.cqgkyept18if.us-west-2.rds.amazonaws.com',
+  'PORT': '3306',
   }
  }
 
