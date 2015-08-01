@@ -90,8 +90,12 @@ WSGI_APPLICATION = 'appink.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'appink_db',
+        'USER': 'root',             # Not used with sqlite3.
+        'PASSWORD': 'molly',         # Not used with sqlite3.
+        'DATABASE_HOST': '',             # Set to empty string for localhost. Not used with sqlite3.
+        'DATABASE_PORT': '',             # Set to empty string for default. Not used with sqlite3.
     }
 }
 
