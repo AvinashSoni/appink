@@ -87,12 +87,13 @@ WSGI_APPLICATION = 'appink.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-DATABASES = {
+
+ DATABASES = {
   'default': {
   'ENGINE': 'django.db.backends.mysql',
   'NAME': os.environ['pageinkdb'],
   'USER': os.environ['pageinkuser'],
-  'PASSWORD': os.environ['Msmsgumsum8487'],
+  'PASSWORD': os.environ[''],
   'HOST': os.environ['pageinkdbinstance.cqgkyept18if.us-west-2.rds.amazonaws.com'],
   'PORT': os.environ['3306'],
   }
